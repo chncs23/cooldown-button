@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CooldownButton.iml" filepath="$PROJECT_DIR$/CooldownButton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cooldownbutton/cooldownbutton.iml" filepath="$PROJECT_DIR$/cooldownbutton/cooldownbutton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cooldownbutton-sample/cooldownbutton-sample.iml" filepath="$PROJECT_DIR$/cooldownbutton-sample/cooldownbutton-sample.iml" />
+    </modules>
+  </component>
+</project>
