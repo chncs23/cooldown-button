@@ -13,30 +13,20 @@ class CooldownButton : Button {
 
     var delayInSeconds: Long = 0
 
-    var listener: OnPostDelayListener? = null
+    var onPostDelayListener: OnPostDelayListener? = null
 
     override fun performClick(): Boolean {
         isEnabled = false
         postDelayed({
             isEnabled = true
-            if (listener != null)
-                listener!!.onPostDelay()
+            onPostDelayListener?.let { onPostDelayListener!!.onPostDelay() }
+
         }, delayInSeconds * 1000)
 
         return super.performClick()
     }
 
-    fun setDelay(delayInSeconds: Long) {
-        this.delayInSeconds = delayInSeconds
-    }
-
-    fun setOnPostDelayListener(listener: OnPostDelayListener) {
-        this.listener = listener
-    }
-
-    class OnPostDelayListener(val listener: () -> Unit) {
-        fun onPostDelay() {
-            listener()
-        }
+    interface OnPostDelayListener {
+        fun onPostDelay()
     }
 }
