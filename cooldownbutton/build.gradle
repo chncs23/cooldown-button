@@ -3,6 +3,17 @@ plugins {
     id "com.jfrog.bintray" version "1.7.3"
 }
 
+group = "io.chncs23"
+description = 'Android library for disable button after click by time.'
+version = { ->
+    def stdout = new ByteArrayOutputStream()
+    exec {
+        commandLine 'git', 'describe', '--tags'
+        standardOutput = stdout
+    }
+    return stdout.toString().trim()
+}.call()
+
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
