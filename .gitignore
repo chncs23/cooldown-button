@@ -1,10 +1,120 @@
-*.iml
-.gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.idea/
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Eclipse project files
+.classpath
+.project
+
+# Android Studio
+.idea
+.gradle
+/*/local.properties
+/*/out
+/*/*/build
+build
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
+
+# Fabric.io
+fabric.properties
+session_analytics.tap
+crashlytics-build.properties
+crashlytics.properties
+com.crashlytics.settings.json
+com_crashlytics_export_strings.xml
+
+# Calabash
+calabash/**/*.png
+calabash/.irb-history
+calabash/test_servers
+test_servers/
+
+faarmis-model/gradle
+faarmis-model/settings.gradle
+
+
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
+.DS_Store
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Eclipse project files
+.classpath
+.project
+
+# Android Studio
+.idea
+.gradle
+/*/local.properties
+/*/out
+/*/*/build
+build
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
+
+# Fabric.io
+fabric.properties
+session_analytics.tap
+crashlytics-build.properties
+crashlytics.properties
+com.crashlytics.settings.json
+com_crashlytics_export_strings.xml
+
+# Calabash
+calabash/**/*.png
+calabash/.irb-history
+calabash/test_servers
+test_servers/
+
+faarmis-model/gradle
+faarmis-model/settings.gradle
+
+
